@@ -1,0 +1,16 @@
+<div class="card flex justify-content-between">
+  <div class="flex justify-content-center align-items-center gap-5">
+    <p-button  (onClick)="toggleSidebar()" severity="secondary" icon="pi pi-align-justify" [text]="true" [rounded]="true"></p-button>
+    <p-breadcrumb
+      styleClass="breadcrumb-custom"
+      class="max-w-full"
+      [model]="items"
+      [home]="home"
+    ></p-breadcrumb>
+  </div>
+  <p-avatar
+    size="large"
+    image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
+    shape="circle"
+  />
+</div>
