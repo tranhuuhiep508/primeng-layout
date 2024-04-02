@@ -1,5 +1,5 @@
 import { Injectable, signal } from '@angular/core';
-import { isEqual } from 'lodash';
+import { isEqual } from 'lodash-es';
 
 export interface ILayout {
   desktopLayout: boolean;
