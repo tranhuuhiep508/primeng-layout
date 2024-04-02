@@ -5,7 +5,6 @@ export interface ILayout {
   desktopLayout: boolean;
   mobileLayout: boolean;
 }
-
 @Injectable({
   providedIn: 'root',
 })

@@ -1,9 +1,9 @@
-import {Routes} from '@angular/router';
-import {DemoFeatureComponent} from "./features/demo-feature/demo-feature.component";
+import { Routes } from '@angular/router';
+import { LayoutComponent } from './layouts/layout.component';
 
 export const routes: Routes = [
   {
     path: '',
-    component: DemoFeatureComponent
-  }
+    component: LayoutComponent,
+  },
 ];
